@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Echauffement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be95694afb7af7e944c7f7bbdc907208cd396175")]
 [assembly: System.Reflection.AssemblyProductAttribute("Echauffement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Echauffement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
