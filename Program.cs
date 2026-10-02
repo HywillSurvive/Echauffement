@@ -19,12 +19,12 @@ class Program
             string prenom = Console.ReadLine();
             Console.WriteLine("Vous avez " + age + " ans et vous vous appelez " + prenom +".");
         // Etape 3 : affichez soit "Tu es majeur", soit "Tu es mineur" dépendant de l'âge fourni par l'utilisateur
-        int majeur = 18;
-        if (majeur >= 18)
+        
+        if (age >= 18)
         {
             Console.WriteLine("Tu es majeur.");
         }
-        else 
+        if (age < 18)
         {
             Console.WriteLine("Tu es mineur.");
         }
