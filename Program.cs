@@ -9,15 +9,19 @@ class Program
          */
 
         // Etape 1 : présentez-vous en écrivant votre prénom et votre jeu préféré
+            
             string nomEtPrenom = "Van drepol Thibault";
             string jeuPrefere = "Menace";
             Console.WriteLine("Je m'appel, " + nomEtPrenom +" et mon jeu préféré est " + jeuPrefere + ".");
+
         // Etape 2 : demandez à l'utilisateur son prénom et son âge
+           
             Console.WriteLine("quel âge avez-vous ?");
             int age = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Quel est votre prénom ?");
             string prenom = Console.ReadLine();
             Console.WriteLine("Vous avez " + age + " ans et vous vous appelez " + prenom +".");
+
         // Etape 3 : affichez soit "Tu es majeur", soit "Tu es mineur" dépendant de l'âge fourni par l'utilisateur
         
         if (age >= 18)
@@ -31,6 +35,8 @@ class Program
 
         // Etape 4 : demandez maintenant à l'utilisateur combien d'euro il a (nombre décimal)
         
+
+
         // Etape 5 : affichez maintenant 4 choix d'armes avec chacune un prix
         
         // Etape 6 : laissez l'utilisateur choisir l'une de ces 4 armes en indiquant un nombre entre 1 et 4
