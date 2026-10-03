@@ -35,7 +35,7 @@ class Program
 
         // Etape 4 : demandez maintenant à l'utilisateur combien d'euro il a (nombre décimal)
         
-
+        qxdfgcgjhklzqerestrdyujk
 
         // Etape 5 : affichez maintenant 4 choix d'armes avec chacune un prix
         
