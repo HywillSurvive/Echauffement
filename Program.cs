@@ -45,10 +45,60 @@ class Program
 
         // Etape 6 : laissez l'utilisateur choisir l'une de ces 4 armes en indiquant un nombre entre 1 et 4
 
-
+        Console.WriteLine("Veuillez choisir une arme en indiquant un nombre.");
+        int choixArme = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Vous avez choisi " + choixArme + ".");
 
         // Etape 7a : vérifiez si l'utilisateur a assez d'argent par rapport à la somme qu'il avait rentré à l'étape 4
-
+        int dague = 15;
+        int epee = 50;
+        int arc = 45;
+        int lance = 40;
+        if (choixArme == 1)
+        {
+            if (euro >= dague)
+            {
+                Console.WriteLine("Vous avez acheté une dague.");
+            }
+            else
+            {
+                Console.WriteLine("Vous n'avez pas assez d'argent.");
+            }
+        }
+        if (choixArme == 2)
+        {
+            if (euro >= epee)
+            {
+                Console.WriteLine("Vous avez acheté une épée.");
+            }
+            else
+            {
+                Console.WriteLine("Vous n'avez pas assez d'argent.");
+            }
+        }
+        if (choixArme == 3)
+        {
+            if (euro >= arc)
+            {
+                Console.WriteLine("Vous avez acheté un arc.");
+            }
+            else
+            {
+                Console.WriteLine("Vous n'avez pas assez d'argent.");
+            }
+        }
+        if (choixArme == 4)
+        {
+            if (euro >= lance)
+            {
+                Console.WriteLine("Vous avez acheté une lance.");
+            }
+            else
+            {
+                Console.WriteLine("Vous n'avez pas assez d'argent.");
+            }
+        }
+        
         // Etape 7b : modifiez l'étape 7a pour ajouter un connecteur logique qui vérifie que l'utilisateur est majeur en plus d'avoir assez d'argent
         // Lorsque l'utilisateur respecte ces demandes, retirez le prix de l'arme de l'argent de l'utilisateur, puis confirmez à l'utilisateur que l'action a été effectuée 
         // Dans tous les autres cas, informez l'utilisateur que l'action n'a pas été possible
