@@ -14,7 +14,7 @@ class Program
             Console.WriteLine("Je m'appel, " + nomEtPrenom +" et mon jeu préféré est " + jeuPrefere + ".");
         // Etape 2 : demandez à l'utilisateur son prénom et son âge
             Console.WriteLine("quel âge avez-vous ?");
-            string age = Console.ReadLine();
+            int age = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Quel est votre prénom ?");
             string prenom = Console.ReadLine();
             Console.WriteLine("Vous avez " + age + " ans et vous vous appelez " + prenom +".");
@@ -24,7 +24,7 @@ class Program
         {
             Console.WriteLine("Tu es majeur.");
         }
-        if (age < 18)
+        else
         {
             Console.WriteLine("Tu es mineur.");
         }
