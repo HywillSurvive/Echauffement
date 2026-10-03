@@ -41,7 +41,11 @@ class Program
 
         // Etape 5 : affichez maintenant 4 choix d'armes avec chacune un prix
 
+        Console.WriteLine("Le magasin propose :\n 1) Dague : 15 euro. \n 2) Epée : 50 euro. \n 3) Arc : 45 euro. \n 4) Lance : 40 euro.");
+
         // Etape 6 : laissez l'utilisateur choisir l'une de ces 4 armes en indiquant un nombre entre 1 et 4
+
+
 
         // Etape 7a : vérifiez si l'utilisateur a assez d'argent par rapport à la somme qu'il avait rentré à l'étape 4
 
